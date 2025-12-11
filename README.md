@@ -36,7 +36,10 @@ Die mitgelieferte .exe reicht vollständig aus.
 
 
 
-README – Excel Data Extractor (.exe)
+
+
+
+English README – Excel Data Extractor (.exe)
 Description
 
 This program is designed to automatically extract important information from Excel files.
@@ -66,3 +69,4 @@ Requirements
 
 No Python installation is required.
 The provided .exe file is fully self-contained.
+
