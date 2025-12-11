@@ -32,3 +32,37 @@ Voraussetzungen
 
 Es wird keine Python-Installation benötigt.
 Die mitgelieferte .exe reicht vollständig aus.
+
+
+
+
+README – Excel Data Extractor (.exe)
+Description
+
+This program is designed to automatically extract important information from Excel files.
+The user provides a folder path, and the program scans all Excel files in that folder, extracts the required data, and saves the results as CSV files in the same directory.
+
+The program was developed in Python using pandas, and compiled into an .exe so it can run without a Python installation.
+
+How It Works
+
+When the program starts, it asks the user to enter the path of a folder containing Excel files.
+
+The program automatically reads all Excel files inside the folder (e.g., .xlsx, .xls).
+
+Each file is analyzed, and the program searches for the relevant information (e.g., specific columns, values, or patterns).
+
+If the required information is found in a file:
+
+The extracted data is saved to a new CSV file.
+
+The CSV file uses the same name as the original Excel file.
+
+The CSV file is stored in the same folder.
+
+Files that do not contain the required information are skipped.
+
+Requirements
+
+No Python installation is required.
+The provided .exe file is fully self-contained.
