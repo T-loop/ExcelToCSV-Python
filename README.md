@@ -1,44 +1,44 @@
-# Excel Data Extractor (.exe)
+# 📊 Excel Data Extractor (.exe)
 
-Dieses Programm dient zur **automatisierten Extraktion wichtiger Informationen aus Excel-Dateien**.  
+This program is designed for the **automated extraction of important information from Excel files**.
 
-Der Benutzer gibt einen Ordnerpfad an, das Programm durchsucht alle darin enthaltenen Excel-Dateien, extrahiert die benötigten Daten und speichert die Ergebnisse als CSV-Dateien im gleichen Ordner.
+The user provides a folder path, and the program scans all Excel files inside it, extracts the required data, and saves the results as CSV files in the same directory.
 
-Das Programm wurde in **Python** unter Verwendung von **pandas** entwickelt und zu einer **.exe-Datei kompiliert**, sodass es ohne Python-Installation ausgeführt werden kann.
-
----
-
-## Funktionsweise
-
-1. Beim Start fragt das Programm nach dem Pfad zu einem Ordner, der Excel-Dateien enthält.  
-2. Alle Excel-Dateien im Ordner werden automatisch eingelesen (z. B. `.xlsx`, `.xls`).  
-3. Jede Datei wird analysiert, und das Programm sucht nach den relevanten Informationen (z. B. bestimmte Spalten, Werte oder Muster).  
-4. Wenn die gesuchte Information in einer Datei gefunden wird:
-   - Die extrahierten Daten werden in eine neue CSV-Datei geschrieben.  
-   - Die CSV-Datei erhält den gleichen Namen wie die ursprüngliche Excel-Datei.  
-   - Die CSV-Datei wird im selben Ordner gespeichert.  
-5. Dateien ohne relevante Informationen werden automatisch übersprungen.
+The tool is developed in **Python** using **pandas** and compiled into a **standalone .exe file**, meaning it can run without requiring a Python installation.
 
 ---
 
-## Voraussetzungen
+## ⚙️ How It Works
 
-- Keine Python-Installation erforderlich.  
-- Die mitgelieferte `.exe` ist vollständig eigenständig und lauffähig.
-
----
-
-## Installation / Nutzung
-
-1. `.exe`-Datei herunterladen.  
-2. Programm starten.  
-3. Pfad zum Ordner mit Excel-Dateien eingeben.  
-4. Die CSV-Dateien werden automatisch im gleichen Ordner erstellt.  
+1. When started, the program asks for the path to a folder containing Excel files.  
+2. All Excel files in the folder are automatically loaded (e.g., `.xlsx`, `.xls`).  
+3. Each file is analyzed, and the program searches for relevant information (e.g., specific columns, values, or patterns).  
+4. If relevant data is found in a file:
+   - The extracted data is written into a new CSV file.  
+   - The CSV file keeps the same name as the original Excel file.  
+   - The CSV file is saved in the same folder.  
+5. Files without relevant data are automatically skipped.
 
 ---
 
-## Hinweise
+## 🧩 Requirements
 
-- Unterstützte Dateiformate: `.xlsx`, `.xls`  
-- Dateien ohne relevante Daten werden ignoriert.  
-- Für große Ordner kann die Verarbeitung einige Minuten dauern, abhängig von der Anzahl der Excel-Dateien und deren Größe.
+- No Python installation required  
+- The provided `.exe` is fully standalone and ready to run
+
+---
+
+## 🚀 Installation / Usage
+
+1. Download the `.exe` file  
+2. Run the program  
+3. Enter the path to the folder containing Excel files  
+4. CSV files will be automatically generated in the same folder  
+
+---
+
+## 📝 Notes
+
+- Supported file formats: `.xlsx`, `.xls`  
+- Files without relevant data are ignored  
+- Processing time may vary depending on the number and size of Excel files in the folder
